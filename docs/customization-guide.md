@@ -1,3 +1,4 @@
+![CursorRIPER](../res/github-header.png)
 # CursorRIPER Framework - Customization Guide
 
 The CursorRIPER Framework is designed to be highly customizable to match your preferences and project needs. This guide explains how to customize the framework's behavior through the `customization.mdc` file.
