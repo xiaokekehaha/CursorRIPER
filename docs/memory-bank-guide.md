@@ -186,7 +186,7 @@ Each RIPER mode interacts with the Memory Bank in specific ways:
 - Reads from: all memory files
 - Updates: progress.md with review findings, activeContext.md with review status
 
-## Troubleshooting
+## Troubleshooting [Guide Link](troubleshooting-guide.md)
 
 If you encounter issues with your Memory Bank:
 
