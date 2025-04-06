@@ -1,3 +1,4 @@
+![CursorRIPER](../res/github-header.png)
 # CursorRIPER Framework - Custom Modes Guide
 
 The CursorRIPER Framework can optionally be used with Cursor's Custom Modes feature for an enhanced user experience. This guide explains how to set up custom modes that align with the RIPER workflow.
