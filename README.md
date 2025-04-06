@@ -1,4 +1,4 @@
-![CursorRIPER](./res/github-header.svg)
+![CursorRIPER](./res/github-header.png)
 # CursorRIPER Framework 
 
 A comprehensive framework for AI-assisted software development in Cursor IDE that combines structured workflow with persistent memory.
