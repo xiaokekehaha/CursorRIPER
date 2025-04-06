@@ -1,15 +1,17 @@
 ---
-title: "CursorRIPER Framework - RIPER Workflow"
-version: "1.0.0"
+description: "CursorRIPER Framework - RIPER Workflow"
+globs: 
+alwaysApply: false
+version: "1.0.1"
 date_created: "2025-04-05"
-last_updated: "2025-04-05"
+last_updated: "2025-04-06"
 framework_component: "riper_workflow"
 priority: "high"
 scope: "development_maintenance"
 ---
-
+<!-- Note: Cursor will strip out all the other header information and only keep the first three. -->
 # CursorRIPER Framework - RIPER Workflow
-# Version 1.0.0
+# Version 1.0.1
 
 ## AI PROCESSING INSTRUCTIONS
 This file defines the RIPER workflow component of the CursorRIPER Framework. As an AI assistant, you MUST:
