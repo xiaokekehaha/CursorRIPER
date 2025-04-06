@@ -1,3 +1,4 @@
+![CursorRIPER](../res/github-header.png)
 # CursorRIPER Framework - RIPER Workflow Guide
 
 The RIPER workflow is the core component of the CursorRIPER Framework, providing a structured approach to software development through five distinct operational modes. This guide explains how to use each mode effectively.
