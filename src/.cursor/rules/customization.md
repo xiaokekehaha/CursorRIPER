@@ -1,15 +1,17 @@
 ---
-title: "CursorRIPER Framework - Customization"
-version: "1.0.0"
+description: "CursorRIPER Framework - Customization"
+globs: 
+alwaysApply: false
+version: "1.0.1"
 date_created: "2025-04-05"
-last_updated: "2025-04-05"
+last_updated: "2025-04-06"
 framework_component: "customization"
 priority: "medium"
 scope: "optional"
 ---
-
+<!-- Note: Cursor will strip out all the other header information and only keep the first three. -->
 # CursorRIPER Framework - Customization
-# Version 1.0.0
+# Version 1.0.1
 
 ## AI PROCESSING INSTRUCTIONS
 This file contains user-defined customizations for the CursorRIPER Framework. As an AI assistant, you MUST:
