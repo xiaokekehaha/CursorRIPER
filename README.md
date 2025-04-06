@@ -21,11 +21,11 @@ flowchart TD
     Init -->|Yes| RIPER[RIPER Workflow]
     
     subgraph StartPhase[START Phase]
-        S1[1. Requirements] --> S2[2. Technology]
-        S2 --> S3[3. Architecture]
-        S3 --> S4[4. Scaffolding]
-        S4 --> S5[5. Environment]
-        S5 --> S6[6. Memory Bank]
+        S1[Requirements] --> S2[Technology]
+        S2 --> S3[Architecture]
+        S3 --> S4[Scaffolding]
+        S4 --> S5[Environment]
+        S5 --> S6[Memory Bank]
     end
     
     subgraph RIPER[RIPER Workflow]
