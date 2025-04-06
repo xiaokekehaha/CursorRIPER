@@ -1,3 +1,4 @@
+![CursorRIPER](../res/github-header.png)
 # CursorRIPER Framework - Setup Guide
 
 This guide will help you set up the CursorRIPER Framework for your project.
