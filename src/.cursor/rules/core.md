@@ -1,15 +1,15 @@
 ---
 title: "CursorRIPER Framework - Core"
-version: "1.0.0"
+version: "1.0.1"
 date_created: "2025-04-05"
-last_updated: "2025-04-05"
+last_updated: "2025-04-06"
 framework_component: "core"
 priority: "critical"
 scope: "always_load"
 ---
 
 # CursorRIPER Framework - Core
-# Version 1.0.0
+# Version 1.0.1
 
 ## AI PROCESSING INSTRUCTIONS
 This is the core component of the CursorRIPER Framework. As an AI assistant, you MUST:
