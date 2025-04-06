@@ -1,3 +1,4 @@
+![CursorRIPER](../res/github-header.png)
 # CursorRIPER Framework - START Phase Guide
 
 The START phase is a one-time initialization process that sets up your project and memory bank. This guide explains how to work through each step of the START phase.
