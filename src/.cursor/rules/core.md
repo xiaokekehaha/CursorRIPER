@@ -36,13 +36,13 @@ When you first encounter a project:
 ## FRAMEWORK COMPONENT LOADING
 
 Based on project state, load these components in order:
-1. Core (this file) - Always load
-2. State - Always load 
+1. CORE, core.mdc (this file) - Always load
+2. STATE, state.mdc - Always load 
 3. Current workflow component based on PROJECT_PHASE:
    - If "UNINITIATED" or "INITIALIZING": Load start-phase.mdc
    - If "DEVELOPMENT" or "MAINTENANCE": Load riper-workflow.mdc
-4. Memory bank files (if they exist)
-5. User customization settings (if they exist)
+4. Memory bank files (if they exist) located at ./memory-bank/
+5. User customization settings (if they exist), customization.mdc
 
 ```mermaid
 flowchart TD
