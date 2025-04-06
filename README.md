@@ -1,4 +1,4 @@
-# CursorRIPER Framework
+# CursorRIPER Framework 
 
 A comprehensive framework for AI-assisted software development in Cursor IDE that combines structured workflow with persistent memory.
 
@@ -76,5 +76,6 @@ flowchart TD
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
+The orginial RIPER framework is by: [robotlovehuman](https://github.com/robotlovehuman)
 
 *The CursorRIPER Framework prevents coding disasters while maintaining perfect continuity across sessions.*
