@@ -1,10 +1,7 @@
 ---
-description: 
+description: "CursorRIPER Framework - Core"
 globs: 
 alwaysApply: true
----
----
-title: "CursorRIPER Framework - Core"
 version: "1.0.2"
 date_created: "2025-04-05"
 last_updated: "2025-04-06"
@@ -12,6 +9,7 @@ framework_component: "core"
 priority: "critical"
 scope: "always_load"
 ---
+<!-- Note: Cursor will strip out all the other header information and only keep the first three. -->
 
 # CursorRIPER Framework - Core
 # Version 1.0.2
