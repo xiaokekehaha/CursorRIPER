@@ -49,9 +49,10 @@ flowchart TD
 
 ## Getting Started
 
-1. Copy the framework files to your project:
+1. Copy the framework files to your project and change the extension to .mdc:
    ```bash
-   cp -r src/.cursor your-project/.cursor
+   cp -r /path/to/CursorRIPER/src/.cursor/* .cursor/
+   rename 's/\.md$/.mdc/' *.md
    ```
 
 2. Initialize your project with:
