@@ -1,3 +1,4 @@
+![CursorRIPER](../res/github-header.png)
 # CursorRIPER Framework - Memory Bank Guide
 
 The Memory Bank is a core component of the CursorRIPER Framework, providing persistent context across coding sessions. This guide explains how to effectively use and maintain your Memory Bank.
