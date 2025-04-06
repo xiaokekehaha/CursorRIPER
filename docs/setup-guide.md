@@ -10,13 +10,15 @@ This guide will help you set up the CursorRIPER Framework for your project.
 
 ## Installation
 
-1. **Copy the framework files to your project**
+1. **Copy the framework files to your project and rename the files to *.mdc**
 
    Create a `.cursor` directory in your project root and copy the necessary files:
 
    ```bash
-   mkdir -p .cursor/rules
-   cp -r /path/to/CursorRIPER/src/.cursor/* .cursor/
+      mkdir -p .cursor/rules
+      cp -r /path/to/CursorRIPER/src/.cursor/* .cursor/
+      cd .cursor/rules/
+      rename 's/\.md$/.mdc/' *.md
    ```
 
 2. **Verify the installation**
