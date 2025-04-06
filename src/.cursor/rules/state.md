@@ -1,20 +1,17 @@
 ---
-description: CursorRIPER Framework - State Management
+description: "CursorRIPER Framework - State Management"
 globs: 
 alwaysApply: true
----
----
-title: "CursorRIPER Framework - State Management"
-version: "1.0.1"
+version: "1.0.2"
 date_created: "2025-04-05"
 last_updated: "2025-04-05"
 framework_component: "state"
 priority: "critical"
 scope: "always_load"
 ---
-
+<!-- Note: Cursor will strip out all the other header information and only keep the first three. -->
 # CursorRIPER Framework - State Management
-# Version 1.0.1
+# Version 1.0.2
 
 ## AI PROCESSING INSTRUCTIONS
 This file defines the current state of the project within the CursorRIPER Framework. As an AI assistant, you MUST:
