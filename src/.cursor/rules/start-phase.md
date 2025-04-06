@@ -1,16 +1,18 @@
 ---
-title: "CursorRIPER Framework - START Phase"
-version: "1.0.0"
+description: "CursorRIPER Framework - START Phase"
+globs: 
+alwaysApply: false
+version: "1.0.1"
 date_created: "2025-04-05"
-last_updated: "2025-04-05"
+last_updated: "2025-04-06"
 framework_component: "start_phase"
 priority: "high"
 scope: "initialization"
 archive_after_completion: true
 ---
-
+<!-- Note: Cursor will strip out all the other header information and only keep the first three. -->
 # CursorRIPER Framework - START Phase
-# Version 1.0.0
+# Version 1.0.1
 
 ## AI PROCESSING INSTRUCTIONS
 This file defines the START phase component of the CursorRIPER Framework. As an AI assistant, you MUST:
