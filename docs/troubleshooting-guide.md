@@ -1,3 +1,4 @@
+![CursorRIPER](./res/github-header.png)
 # CursorRIPER Framework - Troubleshooting Guide
 
 This guide helps you identify and resolve common issues that may arise when using the CursorRIPER Framework. Whether you're experiencing setup problems, workflow disruptions, or unexpected behavior, you'll find diagnostic steps and solutions here.
