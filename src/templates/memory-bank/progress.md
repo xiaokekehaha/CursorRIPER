@@ -7,11 +7,15 @@
 Overall Completion: [PERCENTAGE]%
 
 ```mermaid
+---
+config:
+  theme: neo-dark
+---
 pie
     title Project Completion
-    "Completed" : [COMPLETED_PERCENTAGE]
-    "In Progress" : [IN_PROGRESS_PERCENTAGE]
-    "Not Started" : [NOT_STARTED_PERCENTAGE]
+    "Completed" : 70
+    "In Progress" : 20
+    "Not Started" : 10
 ```
 
 ## What Works
