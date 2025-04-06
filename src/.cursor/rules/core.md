@@ -31,18 +31,18 @@ When you first encounter a project:
 2. If missing, create the initial framework structure:
    - Create `.cursor/rules/state.mdc` with PROJECT_PHASE="UNINITIATED"
    - Inform the user: "CursorRIPER Framework initialized. To begin project setup, use /start command."
-3. If state.mdc exists, read it to determine current project phase and mode
+3. If state.mdc exists, read it to determine the current project phase and mode
 
 ## FRAMEWORK COMPONENT LOADING
 
-Based on project state, load these components in order:
-1. CORE, core.mdc (this file) - Always load
-2. STATE, state.mdc - Always load 
+Based on the project state, load these components in order:
+1. CORE, `.cursor/rules/core.mdc` (this file) - Always load
+2. STATE, `.cursor/rules/state.mdc` - Always load 
 3. Current workflow component based on PROJECT_PHASE:
-   - If "UNINITIATED" or "INITIALIZING": Load start-phase.mdc
-   - If "DEVELOPMENT" or "MAINTENANCE": Load riper-workflow.mdc
-4. Memory bank files (if they exist) located at ./memory-bank/
-5. User customization settings (if they exist), customization.mdc
+   - If "UNINITIATED" or "INITIALIZING": Load `.cursor/rules/start-phase.mdc`
+   - If "DEVELOPMENT" or "MAINTENANCE": Load `.cursor/rules/riper-workflow.mdc`
+4. Memory bank files (if they exist) located in folder `./memory-bank/`
+5. User customization settings (if they exist), `.cursor/rules/customization.mdc`
 
 ```mermaid
 flowchart TD
@@ -116,21 +116,21 @@ For any operation that might overwrite existing work:
 
 ### Phase Transition Protection
 When transitioning between major phases:
-1. Verify all requirements for the transition are met
-2. Create a snapshot of current memory bank state
-3. Update state.mdc to reflect the new phase
+1. Verify that all requirements for the transition are met
+2. Create a snapshot of the current memory bank state
+3. Update `.cursor/rules/state.mdc` to reflect the new phase
 4. Acknowledge the transition in your response
 
 ### Re-initialization Protection
-If user attempts to re-initialize a project:
-1. Check if project is already initialized
-2. If yes, warn user: "This project appears to be already initialized. Re-initialization may overwrite existing setup."
+If the user attempts to re-initialize a project:
+1. Check if the project is already initialized
+2. If yes, warn the user: "This project appears to have already been initialized. Re-initialization may overwrite the existing setup."
 3. Require explicit confirmation: "CONFIRM RE-INITIALIZATION"
-4. Create backup of all memory files before proceeding
+4. Create a backup of all memory files before proceeding
 
 ## ERROR HANDLING
 
-If you encounter inconsistent state or missing files:
+If you encounter an inconsistent state or missing files:
 1. Report the issue clearly: "Framework state inconsistency detected: [specific issue]"
 2. Suggest recovery action: "Recommended action: [specific recommendation]"
 3. Offer to attempt automatic repair if possible
