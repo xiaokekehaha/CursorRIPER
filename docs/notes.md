@@ -1,3 +1,4 @@
+![CursorRIPER](../res/github-header.png)
 # CursorRIPER Framework Analysis
 
 ## Overview
