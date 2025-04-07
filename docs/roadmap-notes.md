@@ -13,7 +13,7 @@ The CursorRIPER Framework provides a structured workflow for AI-assisted softwar
 - **Memory Bank**: Persistent documentation for project continuity
 - **State Management**: Project phase and mode tracking
 - **Initialization Process**: START phase for guided project setup
-- **@ Symbol Integration**: Support for Cursor's context referencing system
+- **@ Symbol Integration**: Support for Cursor's context referencing system (New in Version 1.0.3, Branch: @Symbol-enhancement)
 
 ### Key Features
 - Strict operational protocols to prevent unintended code modifications
