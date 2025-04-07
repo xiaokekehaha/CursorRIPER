@@ -5,7 +5,7 @@
 
 The CursorRIPER Framework is a comprehensive system designed for AI-assisted software development within Cursor IDE (an AI-based fork of VS Code). It provides a structured workflow methodology with persistent memory to maintain context across coding sessions.
 
-The name "RIPER" is an acronym for the five operational modes that form the core of the framework:
+The name "RIPER" is an acronym for the five operational modes that form the core of the framework and was initially developed by [robotlovehuman](https://github.com/robotlovehuman):
 - **R**esearch: Information gathering and understanding existing code
 - **I**nnovate: Brainstorming potential approaches and solutions
 - **P**lan: Creating detailed technical specifications
