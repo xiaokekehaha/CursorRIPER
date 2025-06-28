@@ -1,7 +1,7 @@
 ![CursorRIPER](./res/github-header.png)
 # CursorRIPER Framework 
 
-A comprehensive framework for AI-assisted software development in [Cursor IDE](https://www.cursor.com/) that combines structured workflow with persistent memory.  If you are worried about token count, then check out the streamline version [CursorRIPER.sigma](https://github.com/johnpeterman72/CursorRIPER.sigma)
+A comprehensive framework for AI-assisted software development in [Cursor IDE](https://www.cursor.com/) that combines a structured workflow with persistent memory.  If you are worried about token count, then I highly recommend you check out and use the more streamlined and advanced version [CursorRIPER.sigma](https://github.com/johnpeterman72/CursorRIPER.sigma)
 
 ## Overview
 
